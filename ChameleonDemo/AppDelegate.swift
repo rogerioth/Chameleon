@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
 
-        Chameleon.setGlobalThemeUsingPrimaryColor(.flatPlum,
-            withSecondaryColor: .flatBlue,
+        Chameleon.setGlobalThemeUsingPrimaryColor(.flatPlum(),
+                                                  withSecondaryColor: .flatBlue(),
             andContentStyle: .contrast)
         
         return true
